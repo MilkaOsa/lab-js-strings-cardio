@@ -16,7 +16,12 @@ console.log(indexOfJ);
 
 const string2 = "ABCDEFGHJKLO";
 
-// Your code here...
+// Use bracket notation to access the characters and concatenate them
+const newString = string2[2] + string2[9] + string2[9] + string2[10];
+
+// Print the result
+console.log(newString);  // Output: "COOL"
+
 
 
 
@@ -28,7 +33,11 @@ const string2 = "ABCDEFGHJKLO";
 
 const string3 = "Na";
 
-// Your code here...
+// Use the repeat method to repeat "Na" four times and concatenate " Batman!"
+const result = string3.repeat(4) + " Batman!";
+
+// Print the result
+console.log(result);
 
 
 
@@ -40,7 +49,11 @@ const string3 = "Na";
 
 const fruit = "banana apple mango orange lemon kiwi watermelon grapes pear pineapple";
 
-// Your code here...
+// Use the slice method to extract the word "mango"
+const favoriteFruit = fruit.slice(13, 18); // "mango" starts at index 13 and ends at index 18
+
+// Print the result
+console.log(favoriteFruit);
 
 
 
@@ -54,13 +67,19 @@ const fruit = "banana apple mango orange lemon kiwi watermelon grapes pear pinea
 const funnyHeadline1 = "Breathing oxygen linked to staying alive";
 const funnyHeadline2 = "Students Cook & Serve Grandparents";
 
-
 // Check the first headline
-// Your code here ...
-
+if (funnyHeadline1.includes("oxygen")) {
+    console.log("The string includes the word 'oxygen'");
+} else {
+    console.log("The string does not include the word 'oxygen'");
+}
 
 // Check the second headline
-// Your code here ...
+if (funnyHeadline2.includes("oxygen")) {
+    console.log("The string includes the word 'oxygen'");
+} else {
+    console.log("The string does not include the word 'oxygen'");
+}
 
 
 
@@ -71,10 +90,9 @@ const funnyHeadline2 = "Students Cook & Serve Grandparents";
 
 const string4 = "zEAWrTC9EgtxmK9w1";
 
-
 // a) Print the string length
-// Your code here ...
-
+console.log("Length of string4:", string4.length);
 
 // b) Print the last character in the string
-// Your code here ...
+console.log("Last character of string4:", string4[string4.length - 1]);
+
