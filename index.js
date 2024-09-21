@@ -1,11 +1,10 @@
-/*******************************************
-    Iteration 1 | Find index of a character
-*******************************************/
-// Write code that prints out to the console the index of the character “j” in
-
 const string1 = "My favorite dessert is jello";
 
-// Your code here...
+// Use indexOf to find the index of the character "j"
+const indexOfJ = string1.indexOf("j");
+
+// Print the index
+console.log(indexOfJ);
 
 
 
